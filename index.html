@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LAB-EXERCISE 7- BOOK FETCH</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .btn-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px; 
+        }
+        .container {
+            text-align: center;
+            padding-top: 20px; 
+        }
+        table {
+            margin-top: 20px; 
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th> BOOK NAME </th>
+                </tr>
+            </thead>
+            <tbody id="bookList">
+                
+            </tbody>
+        </table>
+        <div class="btn-container">
+            <button type="button" class="btn btn-primary" id="fetchBooks"> CLICK TO FETCH BOOKS HERE </button>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="book.js"></script>
+
+</html>
+
